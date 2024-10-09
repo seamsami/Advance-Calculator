@@ -42,7 +42,8 @@ To use this app:
 ## File Structure
 
 ```
-/
+/Multi-Page-Calculator-Converter-App
+
     |-- index.html              # Basic calculator page
     |-- extended.html           # Extended calculations page (BMI, Discount, etc.)
     |-- currency.html           # Currency converter page
