@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Extended calculation options like BMI, Discount -->
+    <div class="extended-container">
+        <h2>Extended Calculations</h2>
+
+        <div class="additional-feature">
+            <h3>BMI Calculator</h3>
+            <input type="number" id="weight" placeholder="Enter weight in kg">
+            <input type="number" id="height" placeholder="Enter height in meters">
+            <button id="bmiCalculateBtn">Calculate BMI</button>
+            <p id="bmiResult">BMI: </p>
+        </div>
+
+        <div class="additional-feature">
+            <h3>Discount Calculator</h3>
+            <input type="number" id="originalPrice" placeholder="Original Price">
+            <input type="number" id="discountPercent" placeholder="Discount Percent">
+            <button id="discountCalculateBtn">Calculate Discount</button>
+            <p id="discountResult">Discounted Price: </p>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button onclick="window.location.href='index.html'">Back to Basic Calculator</button>
+        <button onclick="window.location.href='currency.html'">Currency Converter</button>
+    </div>
+
+    <script src="extended.js"></script>
+</body>
+</html>
